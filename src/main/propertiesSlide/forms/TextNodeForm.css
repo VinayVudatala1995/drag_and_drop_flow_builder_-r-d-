@@ -1,0 +1,31 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: white;
+    padding: 5px;
+}
+
+
+.form-row{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin: 10px;
+}
+
+.form-save{
+    margin: 10px;
+}
+
+.label{
+    margin-right: 5px;
+}
+.text-area{
+    height: 75px;
+    width: 250px;
+    margin-top: 10px;
+}
+.variable{
+    background-color: red;
+}

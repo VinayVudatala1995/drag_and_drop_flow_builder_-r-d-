@@ -1,0 +1,55 @@
+.variable-from{
+    display: flex;
+    flex-direction: column;
+}
+
+.create-variable{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.form-input{
+    padding: 10PX;
+    margin:   10px;
+}
+
+hr {
+  margin-top: 10px;
+  margin-left: 2px;
+  margin-right: 2px;
+    border: 1px solid rgb(150, 150, 150);
+  }
+
+  .form-variables{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .form-variable{
+    
+    flex-direction: row;
+    display: flex;
+  }
+
+  .variable-name{
+    flex: 1;
+  }
+
+  .variable-actions{
+    flex: 1;
+  }
+
+  .edit{
+    align-items: center;
+    flex: 1;
+  }
+
+  .delete{
+    align-items: center;
+    flex: 1;
+  }
+
+  .createVariableButton{
+    align-self: flex-end;
+  }

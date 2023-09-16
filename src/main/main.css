@@ -1,0 +1,63 @@
+.main-div{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    width: 100%;    
+    background-image: radial-gradient(rgb(198, 208, 225) 1px, transparent 0px);
+    background-position-x: -19px;
+    background-position-y: -19px;
+    background-size: 40px 40px;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(244, 245, 248);
+}
+
+.slidingpanel{
+    display: flex;
+    flex:  1;
+    flex-direction: column;
+}
+
+    
+   .node-options{  
+    display: flex;
+    flex : 2; 
+    flex-direction: column;
+    background-color: white;
+        height: 60vh;
+        margin: 20px;
+        border-radius: 8px;
+    }
+    
+    
+    
+/* 
+
+.form{
+display: flex;
+flex : 1;
+flex-direction:  column;
+}
+
+.form-row{
+    display: flex;
+flex : 1;
+flex-direction:  row;
+}
+.form-row-label{
+    display: flex;
+    flex: 1;
+    margin: 5px;
+
+}
+.form-row-input{
+    display: flex;
+    flex: 3;
+    margin: 5px;
+    
+}
+
+.form-save{
+    margin: 10px;
+} */

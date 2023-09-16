@@ -1,0 +1,12 @@
+.variable{
+    background-color: white;
+    flex-direction: column;
+    display: flex;
+}
+
+.button{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

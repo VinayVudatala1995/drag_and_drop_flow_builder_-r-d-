@@ -1,0 +1,47 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 300px;    
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px
+}
+
+.node{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.title{
+    display: flex;
+    align-self: flex-start;
+    color: #2c3543;
+    margin-left: 10px;
+}
+
+
+.body{
+    margin: 10px;
+    width: auto;
+    height: auto;
+    background-color: #f9fafb;
+    border: 2px;
+    border-radius: 5px;
+}
+
+.port{
+    align-self: center;
+    height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  text-size-adjust: auto;
+  text-align: center;
+  z-index: 10;
+}
+
+
+
+
